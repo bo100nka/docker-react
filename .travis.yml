@@ -7,4 +7,4 @@ before_install:
   - docker build -t bo100nka/docker-react -f Dockerfile.dev .
 
 script:
-  - docker run -e CI=true run bo100nka/docker-react npm run test -- --coverage
+  - docker run -e CI=true bo100nka/docker-react npm run test -- --coverage
