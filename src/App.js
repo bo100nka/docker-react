@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React (testing replacement melisko)
+          Learn React (changed on feature branch)
         </a>
       </header>
     </div>
